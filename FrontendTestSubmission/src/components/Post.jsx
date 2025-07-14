@@ -29,7 +29,7 @@ function Posts() {
     <div>
       <h2>Latest Posts</h2>
       {posts.map((post) => (
-        <div key={post.id} style={{ marginBottom: '10px', padding: '10px', border: '1px solid #ccc' }}>
+        <div key={post.id} className="post-card">
           <h4>{post.title}</h4>
           <p>{post.body}</p>
         </div>
